@@ -4,9 +4,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Translate } from 'react-jhipster';
 import { connect } from 'react-redux';
-import { Row, Col, Alert } from 'reactstrap';
-
-import { IRootState } from 'app/shared/reducers';
+import { Alert, Col, Row } from 'reactstrap';
 
 export type IHomeProp = StateProps;
 
@@ -17,7 +15,7 @@ export const Home = (props: IHomeProp) => {
     <Row>
       <Col md="9">
         <h2>
-          <Translate contentKey="home.title">Welcome, Java Hipster!</Translate>
+          <Translate contentKey="home.title">Welcome</Translate>
         </h2>
         <p className="lead">
           <Translate contentKey="home.subtitle">This is your homepage</Translate>
@@ -39,13 +37,14 @@ export const Home = (props: IHomeProp) => {
               </Link>
               <Translate contentKey="global.messages.info.authenticated.suffix">
                 , you can try the default accounts:
-                <br />- Administrator (login=&quot;admin&quot; and password=&quot;admin&quot;)
-                <br />- User (login=&quot;user&quot; and password=&quot;user&quot;).
+                <br/>- Administrator (login=&quot;admin&quot; and password=&quot;admin&quot;)
+                <br/>- User (login=&quot;user&quot; and password=&quot;user&quot;).
               </Translate>
             </Alert>
 
             <Alert color="warning">
-              <Translate contentKey="global.messages.info.register.noaccount">You do not have an account yet?</Translate>&nbsp;
+              <Translate contentKey="global.messages.info.register.noaccount">You do not have an account
+                yet?</Translate>&nbsp;
               <Link to="/account/register" className="alert-link">
                 <Translate contentKey="global.messages.info.register.link">Register a new account</Translate>
               </Link>
@@ -68,7 +67,8 @@ export const Home = (props: IHomeProp) => {
             </a>
           </li>
           <li>
-            <a href="https://github.com/jhipster/generator-jhipster/issues?state=open" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/jhipster/generator-jhipster/issues?state=open" target="_blank"
+               rel="noopener noreferrer">
               <Translate contentKey="home.link.bugtracker">JHipster bug tracker</Translate>
             </a>
           </li>
@@ -93,7 +93,7 @@ export const Home = (props: IHomeProp) => {
         </p>
       </Col>
       <Col md="3" className="pad">
-        <span className="hipster rounded" />
+        <span className="hipster rounded"/>
       </Col>
     </Row>
   );
