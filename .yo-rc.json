@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.mycompany.myapp",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.7.0",
+    "applicationType": "monolith",
+    "baseName": "companylibrary",
+    "packageName": "com.mycompany.myapp",
+    "packageFolder": "com/mycompany/myapp",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YmZmOTI0MzdjZjdhNzRhODkxYmU3ZjgzYTU3ZGM4NGE3MGNhN2M3OGNjNDQyNGYxOWYzMDQ4ODkwZmM4ZDZiZTdhNWE3NWE4ZmQwZTk1MDQwYThlM2M2YjQxM2M3ZWM4ZGU2MzdiNDEzNDdjYjgwMDEwYmEzMjI1N2MwOTcwODE=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "darkly",
+    "clientThemeVariant": "dark",
+    "creationTimestamp": 1581292132334,
+    "testFrameworks": ["cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en", "zh-cn", "es"],
+    "blueprints": []
+  }
+}
